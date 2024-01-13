@@ -1,0 +1,119 @@
+body{
+width: 100%;
+margin:30px 2px;
+}
+.banner img{
+    width:100%;
+    position:relative;
+}
+header{
+    text-align:center;
+    position:fixed;
+    z-index: 1;
+    background-color: rgb(149, 149, 235);
+    width: 100%;
+    top: 0px;
+}
+header h1{
+    display: inline-block;
+    font-size: 40px;
+}
+
+.welcome{
+    font-size: 50px;
+    position: absolute;
+    top: 43%;
+    color: white;
+    left: 30px;
+}
+
+.welcome h2{
+    margin: 0px 0px;
+}
+nav{
+    background-color: rgb(224, 141, 82);
+}
+nav li a{
+    text-decoration: none;
+    color: yellow;
+
+}
+nav ul {
+    list-style-type: none; 
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+nav{
+    position: sticky;
+    top:106px;
+}
+nav li{
+    display: inline-block;
+    width: 25%;
+    font-size: 23px;
+    text-align: center;
+}
+.content img{
+    width: 100%;
+}
+.content ol{
+ font-size: 70px;
+ margin: 0px 45px;
+}
+.content li{
+    text-align: center;
+}
+.content li img:hover{
+    position:relative;
+    top:-10px;
+}
+.content h1{
+ font-size: 70px;
+}
+.content p{
+    font-size: 30px;
+    text-align: left;
+}
+.today h2{
+    text-align: center;
+    font-size: 40px;
+}
+.today form input{
+    height:35px;
+    padding: 0px 0px;
+    margin: 10px 40%;
+    border-radius: 10px;
+    width: 290px;
+}
+.today{
+    background-color: #F4F4F4;
+    padding: 25px;
+}
+nav li a:hover {
+    text-decoration: underline;
+}
+form input:focus 
+{
+ border: solid green 3px;
+ outline: none;
+}
+.today ul li{
+    text-decoration: solid;
+    font-size: 30px;
+    display: inline-block;
+    width: 20%;
+   text-align: center;
+}
+.today ul{
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 50px;
+}
+p{
+ line-height: 2em;
+}
+.today li:hover {
+    text-shadow: 5px 0px rgba(128, 128, 128, 0.239);
+}
